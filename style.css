@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 50px;
+    color: purple;
+}
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 500px);
+}
+figure {
+    margin: 30px 30px;
+    border: 2px solid purple;
+    padding: 10px 15px;
+    background-color:blanchedalmond;
+}
+.name, .username, .phone {
+    font-size: 25px;
+}
